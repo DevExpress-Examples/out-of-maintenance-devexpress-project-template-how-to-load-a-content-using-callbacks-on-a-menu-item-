@@ -1,0 +1,18 @@
+@Html.DevExpress().CallbackPanel(settings=>{
+    settings.Name = "CallbackPanel";
+    settings.CallbackRouteValues = new { Controller = "Home", Action = "CallbackPanelPartial" };
+    settings.SetContent(() => {
+        ViewContext.Writer.Write("<div id='MainContentDiv'>");
+        string s = ViewData["view"] as string;
+        if (String.IsNullOrEmpty(s) || s == "Home")
+        {
+            ViewContext.Writer.Write("Home Page");
+            return;
+        }
+        if (s == "Categories")
+          Html.RenderAction("GridViewCategoriesPartial");        
+        else if (s == "Products") 
+            Html.RenderAction("GridViewProductsPartial");
+        ViewContext.Writer.Write("</div>");    
+    });
+}).GetHtml()
