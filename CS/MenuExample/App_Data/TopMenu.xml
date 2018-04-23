@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <item Text="Home" NavigateUrl="/Home/Index" />
+  <item Text="Categories" NavigateUrl="/Home/GridViewCategoriesPartial"  />
+  <item Text="Products" NavigateUrl="/Home/GridViewProductsPartial"  />
+  <item Text="Customers" NavigateUrl="/Home/GridViewPartialView"  />
+</items>
