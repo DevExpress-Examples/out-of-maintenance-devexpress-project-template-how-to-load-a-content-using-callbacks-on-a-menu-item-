@@ -1,3 +1,13 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [HomeController.cs](./CS/MenuExample/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/MenuExample/Controllers/HomeController.vb))
+* [CallbackPanelPartial.cshtml](./CS/MenuExample/Views/Home/CallbackPanelPartial.cshtml)
+* [GridViewCategoriesPartial.cshtml](./CS/MenuExample/Views/Home/GridViewCategoriesPartial.cshtml)
+* [GridViewPartialView.cshtml](./CS/MenuExample/Views/Home/GridViewPartialView.cshtml)
+* [GridViewProductsPartial.cshtml](./CS/MenuExample/Views/Home/GridViewProductsPartial.cshtml)
+* [Index.cshtml](./CS/MenuExample/Views/Home/Index.cshtml)
+<!-- default file list end -->
 # DevExpress Project Template - How to load a content using callbacks on a menu item click
 
 
