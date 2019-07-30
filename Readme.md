@@ -12,7 +12,7 @@
 <!-- default file list end -->
 # DevExpress Project Template - How to load a content using callbacks on a menu item click
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e5019)**
+**[[Run Online]](https://codecentral.devexpress.com/e5019/)**
 <!-- run online end -->
 
 
